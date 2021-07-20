@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Sofia Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sofia-pro-cufonfonts-webfont/sofia pro regular az.woff') format('woff');
+}
+@font-face {
+    font-family: 'gishella morely';
+    src: url('../fonts/gishella_morely/gishella morely.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gishella morely';
+    src: url('../fonts/gishella_morely/gishella morely.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'mermaid';
+    src: url('../fonts/mermaid/mermaid1001.ttf') format('truetype');
+}
+body{font-family:'Sofia Pro Regular'}
+.inline{display:inline;}
+#BrandName{font-size: 2em; font-weight:700}
+#Header a, #Header button{text-decoration:none;padding-top:5px;}
+#Header a:hover, #Header button:hover {color: #f0f0f0 }
+#Header{padding-top:5px; margin: 0 auto;}
+#Footer ul{list-style-type:none}
+#LandingPage {background-image: url('../images/studentloanlanding.png');
+     background-repeat:no-repeat;
+     background-size:1400px;
+     background-position: center;
+    height: 100vh;
+    position:relative;
+}
+#LandingText p{font-size: 3em; font-weight:900;}
+#LandingText {
+    margin-top: 190px;
+    font-family: 'gishella morely';
+}
+.centerdiv {
+    margin: 0 auto;
+} 
+#inputdiv{max-width:600px;}
+.btnspace{margin-top:100px;}
+#Uniname a{text-decoration:none;}
+.red{color:red}
+.green{color:green}
+#Application input{width:500px;}
+.divlength{width:550px;}
+.row{margin-top:40px;}
+#Application h5{font-weight:800;}
+#List tr a:hover{color:blue;}

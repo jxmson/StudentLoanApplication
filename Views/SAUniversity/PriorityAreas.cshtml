@@ -1,0 +1,58 @@
+﻿@model IEnumerable<SAUniversity>
+@{
+    ViewData["Title"] = "Priority Areas";
+    Layout = "_Layout";
+}
+@if (ViewData["Message"] != null)
+{
+    <div class="alert alert-info alert-dismissable" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        @ViewData["Message"]
+    </div>
+
+}
+<div class="container-fluid">
+
+    <h2>Prioritization of scholarship for South African Institutes - 2021</h2>
+    @if (User.Identity.IsAuthenticated && User.IsInRole("Admins"))
+    {
+        <p><a asp-controller="SAUniversity" asp-action="Add">Add University</a></p>
+    }
+<p>The following is a list of Universities with courses that will be priorities at the specific university. Non priority courses will only be considered after the priority courses. Priority courses are based on the priority sectors that have been identified in the STLA Diagnostic Report.</p>
+
+    <p>These sectors are: </p>
+    <ul>
+        <li>Manufacturing</li>
+        <li>Tourism Services</li>
+        <li>Technology and Creative Industries, and</li>
+        <li>Agriculture</li>
+    </ul>
+    <p>Prioritization of these sectors is based on the following criteria: </p>
+    <ul>
+        <li>GDP growth potential</li>
+        <li>High comparative advantage</li>
+        <li>High value chain</li>
+        <li>High multiplier effect</li>
+    </ul>
+</div>
+<div id="carddiv" class="container text-center">
+    <div class="row">
+        @foreach (SAUniversity u in Model)
+        {
+            <div id="Uniname" class="col-sm-6 col-md-3 card card-deck">
+                <div class="card-body">
+                    <a asp-controller="SAUniversity" asp-action="Courses" asp-route-id="@u.SAUniversityId"><h5 class="card-text">@u.Name</h5></a>
+                </div>
+                @if (User.Identity.IsAuthenticated && User.IsInRole("Admins"))
+                {
+                    <hr />
+
+                    <p><a class="green" asp-controller="SAUniversity" asp-action="Edit" asp-route-id="@u.SAUniversityId">Edit University</a></p>
+                    <p><a class="red" asp-controller="SAUniversity" asp-action="Delete" asp-route-id="@u.SAUniversityId">Delete University</a></p>
+                }
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,29 @@
+﻿@model StudentLoan.Models.ViewModels.RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+<div class="text-danger" asp-validation-summary="ModelOnly"></div>
+<div class="container centerdiv" style="max-width:600px";>
+    <h1>Register</h1>
+    <form asp-action="Register" asp-controller="Account" method="post">
+        <div>
+            <label asp-for="UserName"></label>
+            <input asp-for="UserName" class="form-control"/>
+        </div>
+        <div>
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control"/>
+        </div>
+        <div>
+            <label asp-for="Password"></label>
+            <div><span asp-validaion-for="Password" class="text-danger"></span></div>
+            <input asp-for="Password" class="form-control"/>
+        </div>
+        <div>
+            <label asp-for="ConfirmPassword"></label>
+            <div><span asp-validaion-for="Password" class="text-danger"></span></div>
+            <input asp-for="ConfirmPassword" class="form-control"/>
+        </div>
+        <button class="btn btn-danger btnspace" type="submit">Register</button>
+    </form>
+</div>

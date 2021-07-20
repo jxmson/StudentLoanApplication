@@ -1,0 +1,177 @@
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.exe
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.csprojAssemblyReference.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.AssemblyInfoInputs.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.AssemblyInfo.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.RazorTargetAssemblyInfo.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\staticwebassets\StudentLoan.StaticWebAssets.Manifest.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\staticwebassets\StudentLoan.StaticWebAssets.xml
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.csproj.CopyComplete
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.deps.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.runtimeconfig.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.runtimeconfig.dev.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.Views.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\StudentLoan.Views.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.RazorAssemblyInfo.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.RazorAssemblyInfo.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.TagHelpers.input.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.TagHelpers.output.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.RazorCoreGenerate.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\FAQs\FAQs.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\PriorityAreas.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.RazorTargetAssemblyInfo.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.Views.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\StudentLoan.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Add.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Courses.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Edit.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\Shared\UniversityDetails.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Delete.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.csprojAssemblyReference.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.RazorAssemblyInfo.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.RazorAssemblyInfo.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.AssemblyInfoInputs.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.AssemblyInfo.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.exe
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.deps.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.runtimeconfig.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.runtimeconfig.dev.json
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.Views.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\StudentLoan.Views.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.TagHelpers.input.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.TagHelpers.output.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.RazorCoreGenerate.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Apply\ApplicationComplete.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Apply\ApplicationDetails.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Apply\Apply.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Apply\Index.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Apply\List.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Add.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Courses.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Delete.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\Edit.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\SAUniversity\PriorityAreas.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Shared\UniversityDetails.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.RazorTargetAssemblyInfo.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.RazorTargetAssemblyInfo.cs
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.Views.pdb
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.csproj.CopyComplete
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\staticwebassets\StudentLoan.StaticWebAssets.Manifest.cache
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\staticwebassets\StudentLoan.StaticWebAssets.xml
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.dll
+C:\Users\Nthabeleng Jimson\Desktop\Ongoing coding projects\StudentLoan - RepositoryPattern implementation\obj\Debug\netcoreapp3.1\StudentLoan.pdb

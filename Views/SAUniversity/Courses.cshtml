@@ -1,0 +1,62 @@
+﻿@model UniversityCoursesViewModel
+@{
+    ViewData["Title"] = Model.SAUniversity.Name + " Courses";
+    Layout = "_Layout";
+}
+<div>
+    <h2>@Model.SAUniversity.Name Courses</h2>
+    <p>Courses that are sponsored from this university</p>
+    <div>
+        <form asp-action="Courses" method="get">
+
+            <p>
+                Search course: <input type="text" name="search" value="@ViewData["CurrentFilter"]" />
+                <input type="submit" value="search" class="btn btn-primary" />
+                <a class="btn btn-primary" asp-controller="SAUniversity" asp-action="Courses">Back to Full list</a>
+            </p>
+
+        </form>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                   Field
+                </th>
+                <th>
+                    Course
+                </th>
+                <th>
+                    Undergraduate
+                </th>
+                <th>
+                    Postgraduate
+                </th>  
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model.Items)
+            {
+                <tr>
+                    <td>
+                        @c.Course.Field
+                    </td>
+                    <td>
+                        @c.Course.Course
+                    </td>
+                    <td>
+                        @c.Course.Undergrad
+                    </td>
+                    <td>
+                        @c.Course.Postgrad
+                    </td>
+                </tr>
+            }
+            @if(Model.Items.Count() == 0)
+            {
+               <tr>No Courses for this university</tr>
+            }
+        </tbody>
+    </table>
+    <p><a asp-controller="SAUniversity" asp-action="PriorityAreas">Back to List</a></p>
+</div>

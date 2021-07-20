@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" asp-href-include="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="~/styles/styles.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/styles/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+
+        <div class="navbar navbar-expand-lg navbar-light container-fluid">
+            <div class="col-2">
+                <h1 id="BrandName" class="navbar-brand">STLA</h1>
+            </div>
+            <div id="hamburger">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div id="NavBar" class="collapse navbar-collapse" border="1px solid black">
+                <div class="col-8">
+                    <ul id="NavList" class="navbar-nav" style="padding-left:180px;">
+                        <li class="nav-item active">
+                            <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="SAUniversity" asp-action="PriorityAreas" class="nav-link">Priority Areas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a asp-controller="Apply" asp-action="Index" class="nav-link">Apply</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a asp-controller="Home" asp-action="About" class="nav-link">About STLA</a>
+                        </li>
+                    </ul>
+                </div>
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="col-2" style="text-align:right;">
+                        <form class="" method="post" asp-action="Logout" asp-controller="Account">
+                            <button type="submit" class="btn">Hello, @User.Identity.Name</button>
+                        </form>
+                    </div>
+                    <div class="col-2" style="text-align:right">
+                        <form class="" method="post" asp-action="Logout" asp-controller="Account">
+                            <button type="submit" class="btn btn-danger">Log out</button>
+                        </form>
+                    </div>
+                }
+                else
+                {
+                    <div class="col-2" style="padding-right:16px; text-align:right">
+                        <a class="btn" asp-controller="Account" asp-action="Register">
+                            Register
+                        </a>
+                    </div>
+                    <div class="col-2" style="text-align:right">
+                        <a class="btn btn-danger" asp-controller="Account" asp-action="Login">
+                            Log In
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top:35px;">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <p class="small text-center">Copyright &copy 2021</p>
+    </footer>
+
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/popper.js/cjs/popper.min.js"></script>
+</body>
+</html>

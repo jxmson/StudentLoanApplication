@@ -1,0 +1,46 @@
+﻿@model SAUniversity
+@{
+    ViewData["Title"] = "Edit University";
+}
+
+<h2>
+    Edit University
+</h2>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-action="Edit"  multiple="multiple" class="form-control">
+            <div class="form-group">
+                <label asp-for="@Model.Name"></label>
+                <div><span asp-validation-for="@Model.Name" class="text-danger"></span></div>
+                
+                <input asp-for="@Model.Name" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label>Courses</label>
+                 <table class="table table-bordered">
+                @foreach (var c in ViewBag.List)
+                {
+                    
+                   <tr>
+                       <td>
+                           <input type="hidden" asp-for="@Model.UniCourses"/>
+                           <input type="checkbox" value="@c.SACoursesId" name="@c.Course" />    
+                          
+                       </td>
+                       <td >
+                           @c.Course
+                       </td>
+                   </tr> 
+                }
+                    </table>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="@Model.SAUniversityId"/>
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-controller="SAUniversity" asp-action="PriorityAreas">Back to List</a>
+</div>

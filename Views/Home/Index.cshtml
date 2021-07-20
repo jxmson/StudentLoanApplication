@@ -1,0 +1,91 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Home</title>
+    <link rel="stylesheet" asp-href-include="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link asp-href-include="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/styles/styles.css" rel="stylesheet" />
+    <link href="~/styles/styles.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="LandingPage">
+
+        
+        <div class="navbar navbar-expand-lg navbar-light container-fluid">
+            <div class="col-2">
+                <h1 id="BrandName" class="navbar-brand">STLA</h1>
+            </div>
+            <div id="hamburger">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div id="NavBar" class="collapse navbar-collapse" border="1px solid black">
+                <div class="col-8">
+                    <ul id="NavList" class="navbar-nav" style="padding-left:180px;">
+                    <li class="nav-item active">
+                        <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a asp-controller="SAUniversity" asp-action="PriorityAreas" class="nav-link">Priority Areas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a asp-controller="Apply" asp-action="Index" class="nav-link">Apply</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a asp-controller="Home" asp-action="About" class="nav-link">About STLA</a>
+                    </li>
+                    </ul>
+                </div>
+            
+            @if (User.Identity.IsAuthenticated)
+            {
+                <div class="col-2"style="text-align:right;">
+                    <form class="" method="post" asp-action="Logout" asp-controller="Account">
+                        <button type="submit" class="btn">Hello, @User.Identity.Name</button>
+                    </form>
+                </div>
+                <div class="col-2"style="text-align:right">
+                    <form class="" method="post" asp-action="Logout" asp-controller="Account">
+                        <button type="submit" class="btn btn-danger">Log out</button>
+                    </form>
+                </div>
+            }
+            else
+            {
+                <div class="col-2" style="padding-right:16px; text-align:right">
+                    <a class="btn" asp-controller="Account" asp-action="Register">
+                        Register
+                    </a>
+                </div>
+                <div class="col-2" style="text-align:right">
+                    <a class="btn btn-danger" asp-controller="Account" asp-action="Login">
+                        Log In
+                    </a>
+                </div>
+            }
+                </div>
+        </div>
+
+            <div id="LandingText" class="container text-center">
+                <p>Study in South Africa, on us! </p>
+                <a asp-action="About" class="btn btn-danger text-light" style="font-family:Sofia Pro Regular">Click here!</a>
+            </div>
+
+            <div class="small text-center" style="position:absolute; bottom:0; width:100%">
+                <a style="text-decoration:none; color:black" href="https://www.freepik.com/vectors/school">School vector created by rawpixel.com - www.freepik.com</a>
+                <p>Copyright &copy 2021</p>
+            </div>
+    </div>
+</body>
+</html>
+
