@@ -1,85 +1,103 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
     <title>@ViewBag.Title</title>
-    <link rel="stylesheet" asp-href-include="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link href="~/styles/styles.css" rel="stylesheet" />
-    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/styles/styles.css" rel="stylesheet" />
+    <!-- Favicons -->
+    <link href="~/assets/img/favicon.png" rel="icon">
+    <link href="~/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="~/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="~/assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="~/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+        <link href="~/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+        <link href="~/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+    <!-- =======================================================
+    * Template Name: FlexStart - v1.4.0
+    * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
+
 <body>
-    <div>
 
-        <div class="navbar navbar-expand-lg navbar-light container-fluid">
-            <div class="col-2">
-                <h1 id="BrandName" class="navbar-brand">STLA</h1>
-            </div>
-            <div id="hamburger">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavBar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-            <div id="NavBar" class="collapse navbar-collapse" border="1px solid black">
-                <div class="col-8">
-                    <ul id="NavList" class="navbar-nav" style="padding-left:180px;">
-                        <li class="nav-item active">
-                            <a asp-controller="Home" asp-action="Index" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a asp-controller="SAUniversity" asp-action="PriorityAreas" class="nav-link">Priority Areas</a>
-                        </li>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-                        <li class="nav-item">
-                            <a asp-controller="Apply" asp-action="Index" class="nav-link">Apply</a>
-                        </li>
+            <a asp-controller="Home" asp-action="Index" class="logo d-flex align-items-center">
+                <img src="~/assets/img/logo.png" alt="">
+                <span>STLA</span>
+            </a>
 
-                        <li class="nav-item">
-                            <a asp-controller="Home" asp-action="About" class="nav-link">About STLA</a>
-                        </li>
-                    </ul>
-                </div>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="SAUniversity" asp-action="PriorityAreas">Priority Areas</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Apply" asp-action="Index">Apply</a></li>
+                    <li><a class="nav-link scrollto" asp-controller="Home" asp-action="About">About STLA</a></li>
 
-                @if (User.Identity.IsAuthenticated)
-                {
-                    <div class="col-2" style="text-align:right;">
-                        <form class="" method="post" asp-action="Logout" asp-controller="Account">
-                            <button type="submit" class="btn">Hello, @User.Identity.Name</button>
-                        </form>
-                    </div>
-                    <div class="col-2" style="text-align:right">
-                        <form class="" method="post" asp-action="Logout" asp-controller="Account">
-                            <button type="submit" class="btn btn-danger">Log out</button>
-                        </form>
-                    </div>
-                }
-                else
-                {
-                    <div class="col-2" style="padding-right:16px; text-align:right">
-                        <a class="btn" asp-controller="Account" asp-action="Register">
-                            Register
-                        </a>
-                    </div>
-                    <div class="col-2" style="text-align:right">
-                        <a class="btn btn-danger" asp-controller="Account" asp-action="Login">
-                            Log In
-                        </a>
-                    </div>
-                }
-            </div>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li><a class="nav-link scrollto">Hello, @User.Identity.Name</a></li>
+                        <li><form class="" method="post" asp-action="Logout" asp-controller="Account">
+                            <button type="submit" class="btn getstarted scrollto">Log out</button>
+                        </form></li>
+                    }
+                    else
+                    {
+                        <li>
+                            <a class="nav-link scrollto" asp-controller="Account" asp-action="Register">
+                                Register
+                            </a>
+                        </li>
+                        <li>
+                            <a class="getstarted scrollto" asp-controller="Account" asp-action="Login">
+                                Log In
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
         </div>
-    </div>
-    <div class="container" style="margin-top:35px;">
-        @RenderBody()
-    </div>
+</header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
 
-    <footer>
-        <p class="small text-center">Copyright &copy 2021</p>
-    </footer>
+    <div id="hero" class="hero">
 
-    <script src="~/lib/jquery/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
-    <script src="~/lib/popper.js/cjs/popper.min.js"></script>
+        <div id="content" class="container" style="padding-top:110px;">
+            @RenderBody()
+        </div>
+           
+    </div><!-- End Hero -->                    
+
+    <!-- Vendor JS Files -->
+    <script src="~/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="~/assets/vendor/aos/aos.js"></script>
+    <script src="~/assets/vendor/php-email-form/validate.js"></script>
+    <script src="~/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="~/assets/vendor/purecounter/purecounter.js"></script>
+    <script src="~/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="~/assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="~/assets/js/main.js"></script>
+
 </body>
+
 </html>

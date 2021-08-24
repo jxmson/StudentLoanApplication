@@ -1,1 +1,0 @@
-This application allows a user register and sign in to submit an application and view areas that are a priority for the student loan organisation. It also allows an admin user to add, edit or remove a university that is considered a priority; and view a summarised list of all applications as well as an applications full details.

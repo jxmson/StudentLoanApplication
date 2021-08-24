@@ -48,7 +48,7 @@ namespace StudentLoan.Controllers
                     var result = await signInManager.PasswordSignInAsync(user, loginmodel.Password, false, false);
                     if(result.Succeeded)
                     {
-                        return Redirect(loginmodel?.ReturnUrl ?? "/Home/Index");
+                        return Redirect(loginmodel?.ReturnUrl ?? "/");
                     }
                 }
             }

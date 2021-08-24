@@ -3,248 +3,249 @@
     ViewData["Title"] = "Application Details";
 }
 
-<h2>Application details</h2>
-<div id="ApplicationDetails">
-    <h5>PERSONAL INFORMATION</h5>
-    <div class="row">
-        <div class="divlength col-2">
-            <label asp-for="Surname"></label>
-            <p>@Model.Surname</p>
+    <div id="ApplicationDetails">
+        <h2>Application details</h2>
+
+        <h5>PERSONAL INFORMATION</h5>
+        <div class="row">
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Surname"></label>
+                <p>@Model.Surname</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="FirstName"></label>
+                <p>@Model.FirstName</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="OtherName"></label>
+                <p>@Model.OtherName</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GenderName"></label>
+                <p>@Model.GenderName</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DOB"></label>
+                <p>@Model.DOB</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="IDNumber"></label>
+                <p>@Model.IDNumber</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="OccupationName"></label>
+                <p>@Model.OccupationName</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="MaritalStatusName"></label>
+                <p>@Model.MaritalStatusName</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Email"></label>
+                <p>@Model.Email</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Cell"></label>
+                <p>@Model.Cell</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Work"></label>
+                <p>@Model.Work</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Home"></label>
+                <p>@Model.Home</p>
+            </div>
+            <div class="ccol-4 col-sm-6 col-md-3">
+                <label asp-for="Address1"></label>
+                <p>@Model.Address1</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Address2"></label>
+                <p>@Model.Address2</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Address3"></label>
+                <p>@Model.Address3</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="City"></label>
+                <p>@Model.City</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Suburb"></label>
+                <p>@Model.Suburb</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Zip"></label>
+                <p>@Model.Zip</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Country"></label>
+                <p>@Model.Country</p>
+            </div>
         </div>
-        <div class="divlength col-2">
-            <label asp-for="FirstName"></label>
-            <p>@Model.FirstName</p>
+        <div class="row">
+            <h5>FIRST STUDY CHOICE</h5>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Name"></label>
+                <p>@Model.Name</p>
+            </div>
+            <div class=" col-4 col-sm-6 col-md-3">
+                <label asp-for="Course"></label>
+                <p>@Model.Course</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="StudentNumber"></label> If applicable
+                <p>@Model.StudentNumber</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DateofAdmission"></label>
+                <p>@Model.DateofAdmission</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DateOfCompletion"></label>
+                <p>@Model.DateOfCompletion</p>
+            </div>
         </div>
-        <div class="divlength col-2">
-            <label asp-for="OtherName"></label>
-            <p>@Model.OtherName</p>
+        <div class="row">
+            <h5>SECOND STUDY CHOICE</h5>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Name2"></label>
+                <p>@Model.Name2</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Course2"></label>
+                <p>@Model.Course2</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="StudentNumber2"></label> If applicable
+                <p>@Model.StudentNumber2</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DateofAdmission2"></label>
+                <p>@Model.DateofAdmission2</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DateOfCompletion2"></label>
+                <p>@Model.DateOfCompletion2</p>
+            </div>
         </div>
-        <div class="divlength col-2">
-            <label asp-for="GenderName"></label>
-            <p>@Model.GenderName</p>
+        <div class="row">
+            <h5>THIRD STUDY CHOICE</h5>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Name3"></label>
+                <p>@Model.Name3</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Course3"></label>
+                <p>@Model.Name3</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="StudentNumber3"></label> If applicable
+                <p>@Model.StudentNumber3</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DateofAdmission3"></label>
+                <p>@Model.DateofAdmission3</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DateOfCompletion3"></label>
+                <p>@Model.DateOfCompletion3</p>
+            </div>
         </div>
-        <div class="divlength col-2">
-            <label asp-for="DOB"></label>
-            <p>@Model.DOB</p>
+        <div class="row">
+            <h5>EDUCATIONAL BACKGROUND</h5>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="HighSchool"></label>
+                <p>@Model.HighSchool</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="DateOfSchoolCompletion"></label>
+                <p>@Model.DateOfSchoolCompletion</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="QualificationObtained"></label>
+                <p>@Model.QualificationObtained</p>
+            </div>
         </div>
-        <div class="divlength col-2">
-            <label asp-for="IDNumber"></label>
-            <p>@Model.IDNumber</p>
+        <div class="row">
+            <h5>BANK ACCOUNT INFORMATION</h5>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Bank"></label>
+                <p>@Model.Bank</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="Branch"></label>
+                <p>@Model.Branch</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="NameOnAccount"></label>
+                <p>@Model.NameOnAccount</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="AccountNumber"></label>
+                <p>@Model.AccountNumber</p>
+            </div>
         </div>
-        <div class="divlength col-2">
-            <label asp-for="OccupationName"></label>
-            <p>@Model.OccupationName</p>
+        <div class="row">
+            <h5>GUARANTORS INFORMATION</h5>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorName"></label>
+                <p>@Model.GuarantorName</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorSurname"></label>
+                <p>@Model.GuarantorSurname</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorID"></label>
+                <p>@Model.GuarantorID</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorCell"></label>
+                <p>@Model.GuarantorCell</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorHome"></label>
+                <p>@Model.GuarantorHome</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorWork"></label>
+                <p>@Model.GuarantorWork</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorAddress1"></label>
+                <p>@Model.GuarantorAddress1</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorAddress2"></label>
+                <p>@Model.GuarantorAddress2</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorAddress3"></label>
+                <p>@Model.GuarantorAddress3</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorCity"></label>
+                <p>@Model.GuarantorCity</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorSuburb"></label>
+                <p>@Model.GuarantorSuburb</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorZip"></label>
+                <p>@Model.GuarantorZip</p>
+            </div>
+            <div class="col-4 col-sm-6 col-md-3">
+                <label asp-for="GuarantorCountry"></label>
+                <p>@Model.GuarantorCountry</p>
+            </div>
         </div>
-        <div class="divlength col-2">
-            <label asp-for="MaritalStatusName"></label>
-            <p>@Model.MaritalStatusName</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Email"></label>
-            <p>@Model.Email</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Cell"></label>
-            <p>@Model.Cell</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Work"></label>
-            <p>@Model.Work</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Home"></label>
-            <p>@Model.Home</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Address1"></label>
-            <p>@Model.Address1</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Address2"></label>
-            <p>@Model.Address2</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Address3"></label>
-            <p>@Model.Address3</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="City"></label>
-            <p>@Model.City</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Suburb"></label>
-            <p>@Model.Suburb</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Zip"></label>
-            <p>@Model.Zip</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Country"></label>
-            <p>@Model.Country</p>
-        </div>
+        <form method="post" asp-controller="Apply" asp-action="Delete">
+            <input type="hidden" asp-for="ApplicationId" />
+            <input type="submit" value="Delete Application" class="btn btn-get-started scrollto" onclick="return confirm('Are you sure you want to delete this application?')" />|
+            <a asp-action="List" class="btn btn-get-started scrollto">Back to List</a>
+        </form>
     </div>
-    <div class="row">
-        <h5>FIRST STUDY CHOICE</h5>
-        <div class="divlength col-2">
-            <label asp-for="Name"></label>
-            <p>@Model.Name</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Course"></label>
-            <p>@Model.Course</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="StudentNumber"></label> If applicable
-            <p>@Model.StudentNumber</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="DateofAdmission"></label>
-            <p>@Model.DateofAdmission</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="DateOfCompletion"></label>
-            <p>@Model.DateOfCompletion</p>
-        </div>
-    </div>
-    <div class="row">
-        <h5>SECOND STUDY CHOICE</h5>
-        <div class="divlength col-2">
-            <label asp-for="Name2"></label>
-            <p>@Model.Name2</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Course2"></label>
-            <p>@Model.Course2</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="StudentNumber2"></label> If applicable
-            <p>@Model.StudentNumber2</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="DateofAdmission2"></label>
-            <p>@Model.DateofAdmission2</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="DateOfCompletion2"></label>
-            <p>@Model.DateOfCompletion2</p>
-        </div>
-    </div>
-    <div class="row">
-        <h5>THIRD STUDY CHOICE</h5>
-        <div class="divlength col-2">
-            <label asp-for="Name3"></label>
-            <p>@Model.Name3</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Course3"></label>
-            <p>@Model.Name3</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="StudentNumber3"></label> If applicable
-            <p>@Model.StudentNumber3</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="DateofAdmission3"></label>
-            <p>@Model.DateofAdmission3</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="DateOfCompletion3"></label>
-            <p>@Model.DateOfCompletion3</p>
-        </div>
-    </div>
-    <div class="row">
-        <h5>EDUCATIONAL BACKGROUND</h5>
-        <div class="divlength col-2">
-            <label asp-for="HighSchool"></label>
-            <p>@Model.HighSchool</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="DateOfSchoolCompletion"></label>
-            <p>@Model.DateOfSchoolCompletion</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="QualificationObtained"></label>
-            <p>@Model.QualificationObtained</p>
-        </div>
-    </div>
-    <div class="row">
-        <h5>BANK ACCOUNT INFORMATION</h5>
-        <div class="divlength col-2">
-            <label asp-for="Bank"></label>
-            <p>@Model.Bank</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="Branch"></label>
-            <p>@Model.Branch</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="NameOnAccount"></label>
-            <p>@Model.NameOnAccount</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="AccountNumber"></label>
-            <p>@Model.AccountNumber</p>
-        </div>
-    </div>
-    <div class="row">
-        <h5>GUARANTORS INFORMATION</h5>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorName"></label>
-            <p>@Model.GuarantorName</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorSurname"></label>
-            <p>@Model.GuarantorSurname</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorID"></label>
-            <p>@Model.GuarantorID</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorCell"></label>
-            <p>@Model.GuarantorCell</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorHome"></label>
-            <p>@Model.GuarantorHome</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorWork"></label>
-            <p>@Model.GuarantorWork</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorAddress1"></label>
-            <p>@Model.GuarantorAddress1</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorAddress2"></label>
-            <p>@Model.GuarantorAddress2</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorAddress3"></label>
-            <p>@Model.GuarantorAddress3</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorCity"></label>
-            <p>@Model.GuarantorCity</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorSuburb"></label>
-            <p>@Model.GuarantorSuburb</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorZip"></label>
-            <p>@Model.GuarantorZip</p>
-        </div>
-        <div class="divlength col-2">
-            <label asp-for="GuarantorCountry"></label>
-            <p>@Model.GuarantorCountry</p>
-        </div>
-    </div>
-    <form method="post" asp-controller="Apply" asp-action="Delete">
-        <input type="hidden" asp-for="ApplicationId" />
-        <input type="submit" value="Delete Application" class="btn btn-dark" onclick="return confirm('Are you sure you want to delete this application?')"/>|
-        <a asp-action="List">Back to List</a>
-    </form>
-</div>
